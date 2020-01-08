@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Representación de los alimentos}
   spec.description   = %q{Permite crear y realizar operaciones con la representación de los alimentos}
-  spec.homepage      = "https://github.com/ULL-ESIT-LPP-1920/tdd-diego-algomas"
+  spec.homepage      = "https://github.com/diego-algomas/alimentos-lpp"
 
-  spec.metadata["allowed_push_host"] = "https://github.com/ULL-ESIT-LPP-1920/tdd-diego-algomas"
+  spec.metadata["allowed_push_host"] = "https://github.com/diego-algomas/alimentos-lpp"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/ULL-ESIT-LPP-1920/tdd-diego-algomas"
-  spec.metadata["changelog_uri"] = "https://github.com/ULL-ESIT-LPP-1920/tdd-diego-algomas"
+  spec.metadata["source_code_uri"] = "https://github.com/diego-algomas/alimentos-lpp"
+  spec.metadata["changelog_uri"] = "https://github.com/diego-algomas/alimentos-lpp"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
