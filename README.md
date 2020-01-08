@@ -1,4 +1,6 @@
 # Alimentos
+[![Coverage Status](https://coveralls.io/repos/github/diego-algomas/alimentos-lpp/badge.svg?branch=master)](https://coveralls.io/github/diego-algomas/alimentos-lpp?branch=master)
+[![Build Status](https://travis-ci.com/diego-algomas/alimentos-lpp.svg?branch=master)](https://travis-ci.com/diego-algomas/alimentos-lpp)
 
 Gema creada por Diego Machín Guardia
 Práctica 6 de LPP
