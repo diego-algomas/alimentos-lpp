@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>README - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/navigation.js" defer></script>
+<script src="./js/search.js" defer></script>
+<script src="./js/search_index.js" defer></script>
+<script src="./js/searcher.js" defer></script>
+<script src="./js/darkfish.js" defer></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+<div class="nav-section">
+  <h3>Table of Contents</h3>
+
+  <ul class="link-list" role="directory">
+    <li><a href="#label-Alimentos">Alimentos</a>
+    <li><a href="#label-Descripci-C3-B3n">Descripción</a>
+    <li><a href="#label-Installation">Installation</a>
+    <li><a href="#label-Desarrollo">Desarrollo</a>
+    <li><a href="#label-Pr-C3-A1ctica+7">Práctica 7</a>
+    <li><a href="#label-Clase+List">Clase List</a>
+    <li><a href="#label-Pruebas+de+las+Dietas">Pruebas de las Dietas</a>
+    <li><a href="#label-P8">P8</a>
+  </ul>
+</div>
+
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./Gemfile.html">Gemfile</a>
+  
+    <li><a href="./Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="./Guardfile.html">Guardfile</a>
+  
+    <li><a href="./README_md.html">README</a>
+  
+    <li><a href="./Rakefile.html">Rakefile</a>
+  
+    <li><a href="./bin/setup.html">setup</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page README.md">
+
+<h1 id="label-Alimentos"><a href="Alimentos.html"><code>Alimentos</code></a><span><a href="#label-Alimentos">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>Gema creada por Diego Machín Guardia Práctica 6 de LPP</p>
+
+<h2 id="label-Descripci-C3-B3n">Descripción<span><a href="#label-Descripci-C3-B3n">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>En esta gema está creada para almacenar la información relacionada a cada uno de los alimentos. En las pruebas se encuentran distintas pruebas del buen funcionamiento de la clase. Por otro lado esta gema ha sido desarrollada usando el desarrollo por pruebas</p>
+
+<h2 id="label-Installation">Installation<span><a href="#label-Installation">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Add this line to your application&#39;s Gemfile:</p>
+
+<pre class="ruby"><span class="ruby-identifier">gem</span> <span class="ruby-string">&#39;alimentos&#39;</span>
+</pre>
+
+<p>And then execute:</p>
+
+<pre>$ bundle</pre>
+
+<p>Or install it yourself as:</p>
+
+<pre>$ gem install alimentos</pre>
+
+<h2 id="label-Desarrollo">Desarrollo<span><a href="#label-Desarrollo">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>El primer paso de la ejecución consistirá en crear la estructura de los ficheros usando el bundle y aprovechando para crear una gema. Esto se hará ejecutando el siguiente comando:  bundle gem alimentos A continuación editaremos el fichero de alimentos.gemspec donde actualizaremos la información para que corresponda con la de la aplicación y se ejecutará el bundle install para instalar todas las dependencias necesarias.</p>
+
+<p>La creación de esta gema ha sido realizada usando la técnica de TDD en la cual primero se crean las pruebas y a continuación se realizará el código necesario para que pase la prueba. Es por ello que cualquier cambio en el código se puede comprobar el buen funcionamiento de la gema gracias a todas las pruebas creadas. Para lanzar todas las pruebas se realiza el <code>rake</code> el cual lanza por defecto todas las pruebas.</p>
+
+<h1 id="label-Pr-C3-A1ctica+7">Práctica 7<span><a href="#label-Pr-C3-A1ctica+7">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<h2 id="label-Clase+List">Clase <a href="List.html"><code>List</code></a><span><a href="#label-Clase+List">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Para esta tarea se ha implementado dentro del directorio lib/alimentos un modulo donde se incluye la clase Lista. En esta clase se define los métodos de una lista doblemente enlazada en la cual se almacena la longitud la cabeza y además es iterable en toda ella gracias al módulo enumerable.</p>
+
+<p>En el directorio rspec a continuación de lsa pruebas de la clase alimento se encuentras las pruebas para la clase lista y el resto de las pruebas para comprobar el buen funcionamiento de la clase. Todo esto hecho siguiendo el TDD.</p>
+
+<h2 id="label-Pruebas+de+las+Dietas">Pruebas de las Dietas<span><a href="#label-Pruebas+de+las+Dietas">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Para las pruebas de las emisiones y el espacio dañado por cada una de las dietas se ha procedido a crear una variable dieta donde se alamacenan todos los alimentos que tiene esa dieta. Como cada alimento guarda los datos para 100 g de alimento se han hecho los calculos para aproximar la ingesta de calorías necesarias entre un hombre y una mujer siguiendo cada una de las dietas propuestas: española, vasca, vegetariana,vegetaria y carnívora. Es por ello que cada uno de los alimentos de esta lista respeta los porcentajes de cada una de éstas dietas además de cumplir la ingesta calórica necesaria para un día.</p>
+
+<h2 id="label-P8">P8<span><a href="#label-P8">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Cabe destacar la clase <a href="Menu.html"><code>Menu</code></a> y la clase plato. La clase <a href="Menu.html"><code>Menu</code></a> incluye una lista de platos donde cada plato es una clase que contiene varios alimentos con sus correspondientes cantidades. La clase menú es enumerable y comparable así como la clase plato es enumerable.</p>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
